@@ -5,7 +5,7 @@ from jira.client import JIRA
 import csv
 import sys
 import time
-import usernamePasswordData
+import configurationData
 
 reader = csv.reader(sys.stdin)
 processedIssues = {}
@@ -20,7 +20,7 @@ options = {
     'server': 'https://jira.shazamteam.net/'
 }
 
-jira = JIRA(options, basic_auth=(usernamePasswordData.username, usernamePasswordData.password))    # a username/password tuple
+jira = JIRA(options, basic_auth=(configurationData.username, configurationData.password))    # a username/password tuple
 
 # Get the mutable application properties for this server (requires
 # jira-system-administrators permission)
