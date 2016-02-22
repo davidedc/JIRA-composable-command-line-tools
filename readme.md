@@ -6,6 +6,10 @@ A set of command line tools for working with JIRA. The difference with the other
 
 ```echo "id = WPS-1532" | python simpleQuery.py |  python allTheWorkNeeded.py | python status.py | python cropSummary.py | csvlook```
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/davidedc/JIRA-composable-command-line-workflows/master/readme-images/img4.png">
+</p>
+
 # Setup
 You just need python and csvkit. csvkit gives you a number of tools to manipulate .csv files from the command line and can be found at https://csvkit.readthedocs.org/en/0.9.1/ .
 
