@@ -1,6 +1,6 @@
 # What
 
-A set of command line tools for working with JIRA. The difference with the other JIRA CLI tools is that these tools are meant to work together through pipes and redirections, UNIX-shell-style.
+A set of command line tools for working with JIRA. The difference with the other JIRA CLI tools out there is that these tools are meant to work together through pipes and redirections, UNIX-shell-style.
 
 # Quick example
 
