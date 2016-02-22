@@ -42,7 +42,7 @@ gives:
 
 ## allTheWorkNeeded
 
-takes a .csv with a list of issues and recursively reaches all the issues that are subtasks, part of an epic, or blocking or required.
+takes a .csv with a list of issues and recursively reaches all the issues that are subtasks, part of an epic, or blocking or required. The output .csv also includes a colunm that explains how each issue is "reached", e.g. is it a child of an issue? is it part of an epic? etc.
 
 Example:
 
