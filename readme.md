@@ -26,7 +26,7 @@ Just returns a .csv based on any query you pass, example:
 
 gives:
 
-```issue id,summary```
+```issue id,summary```<br>
 ```WPS-1532,THE ISSUE SUMMARY HERE```
 
 ## cropSummary
@@ -37,7 +37,7 @@ takes a .csv and returns the same .csv, but all summaries are cropped so that th
 
 gives:
 
-```issue id,summary truncated```
+```issue id,summary truncated```<br>
 ```WPS-1532,THE ISSUE SUM...```
 
 ## allTheWorkNeeded
@@ -59,6 +59,14 @@ takes a .csv and returns the same .csv, but with an added column for all the sta
 
 takes a .csv and returns the same .csv, but with an added column with the last comment for each issue
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/davidedc/JIRA-composable-command-line-workflows/master/readme-images/img2.png">
+</p>
+
 ## openEpics
 
 takes a query string and finds all open epics that satisfy the query.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/davidedc/JIRA-composable-command-line-workflows/master/readme-images/img3.png">
+</p>
