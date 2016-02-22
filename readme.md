@@ -13,6 +13,8 @@ A set of command line tools for working with JIRA. The difference with the other
 # Setup
 You just need python and csvkit. csvkit gives you a number of tools to manipulate .csv files from the command line and can be found at https://csvkit.readthedocs.org/en/0.9.1/ .
 
+Also open the configurationData file, fill-in with your relevant data and delete the ```.example``` part of the extension.
+
 # General pattern
 Commands can take either a query string or a .csv file as input, and always give a .csv file in output. Since all data is in .csv form, the csvkit tools come extremely handy and can be used for example to do joins, select columns, query the data further... For more information on csvkit please see https://csvkit.readthedocs.org/en/0.9.1/tutorial.html
 
