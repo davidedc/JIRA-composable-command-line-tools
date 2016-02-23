@@ -59,7 +59,7 @@ takes a .csv and returns the same .csv, but with an added column for all the sta
 
 ## lastComment
 
-takes a .csv and returns the same .csv, but with an added column with the last comment for each issue
+takes a .csv and returns the same .csv, but with an added column with the last comment for each issue. This type of listing with the last comment is otherwise impossible to do with JIRA's web interface or any plugin I'm aware of.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/davidedc/JIRA-composable-command-line-workflows/master/readme-images/img2.png">
