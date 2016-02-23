@@ -1,2 +1,3 @@
 username = 'YOUR_USER_NAME_HERE'
 password = 'YOUR_PASSWORD_HERE'
+jiraServerUrl = 'YOUR_JIRA_SERVER_URL'

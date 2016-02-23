@@ -15,7 +15,7 @@ reader = csv.reader(sys.stdin)
 # for details.
 
 options = {
-    'server': 'https://jira.shazamteam.net/'
+    'server': configurationData.jiraServerUrl
 }
 
 jira = JIRA(options, basic_auth=(configurationData.username, configurationData.password))    # a username/password tuple
