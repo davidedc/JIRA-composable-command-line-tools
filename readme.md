@@ -4,6 +4,8 @@ A set of command line tools for working with JIRA. The difference with the other
 
 # Quick example
 
+Show all tasks needed to complete an issue, their status and a brief version of their summary:
+
 ```echo "id = WPS-1532" | python simpleQuery.py |  python allTheWorkNeeded.py | python status.py | python cropSummary.py | csvlook```
 
 <p align="center">
