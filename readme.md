@@ -1,6 +1,6 @@
 # What
 
-A set of command line tools for working with JIRA. The difference with the other JIRA CLI tools out there is that these tools are meant to work together (between them and with other .csv-oriented tools already available out there) through pipes and redirections, UNIX-shell-style.
+A set of command line tools for working with JIRA. The difference with the other JIRA CLI tools out there is that these tools are meant to work together (between them and with other .csv-oriented tools already available out there) through pipes and redirections, UNIX-shell-style. So rather than using one huge cli-based tool, one can use this set of simple tools that can be combined to do complex queries and operations, as per examples.
 
 # Quick example
 
