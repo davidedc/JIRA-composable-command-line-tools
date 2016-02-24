@@ -12,6 +12,13 @@ Show all tasks needed to complete an issue, their status and a brief version of 
   <img src="https://raw.githubusercontent.com/davidedc/JIRA-composable-command-line-workflows/master/readme-images/img4.png">
 </p>
 
+## "But I don't want to type python"
+
+create an alias:
+
+```alias simpleQuery="python simpleQuery.py"```<br>
+```echo "id = WPS-1532" | simpleQuery```
+
 # Setup
 You just need python and csvkit. csvkit gives you a number of tools to manipulate .csv files from the command line and can be found at https://csvkit.readthedocs.org/en/0.9.1/ .
 
