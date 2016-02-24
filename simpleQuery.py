@@ -1,5 +1,4 @@
-# This script shows how to connect to a JIRA instance with a
-# username and password over HTTP BASIC authentication.
+# takes the query in input and creates the resulting table
 
 from jira.client import JIRA
 import csv
@@ -11,22 +10,11 @@ reader = csv.reader(sys.stdin)
 processedIssues = {}
 issuesToBeProcessed = {}
        
-# By default, the client will connect to a JIRA instance started from the Atlassian Plugin SDK.
-# See
-# https://developer.atlassian.com/display/DOCS/Installing+the+Atlassian+Plugin+SDK
-# for details.
-
 options = {
     'server': configurationData.jiraServerUrl
 }
 
 jira = JIRA(options, basic_auth=(configurationData.username, configurationData.password))    # a username/password tuple
-
-# Get the mutable application properties for this server (requires
-# jira-system-administrators permission)
-props = jira.application_properties()
-
-# Find all issues reported by the admin
 
 fieldnames = ['issue id', 'summary']
 writer = csv.DictWriter(sys.stdout, fieldnames=fieldnames)

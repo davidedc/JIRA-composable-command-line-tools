@@ -30,11 +30,6 @@ options = {
 
 jira = JIRA(options, basic_auth=(configurationData.username, configurationData.password))    # a username/password tuple
 
-# Get the mutable application properties for this server (requires
-# jira-system-administrators permission)
-props = jira.application_properties()
-
-# Find all issues reported by the admin
 
 fieldnames = ['issue id', 'why listed', 'summary']
 writer = csv.DictWriter(sys.stdout, fieldnames=fieldnames)

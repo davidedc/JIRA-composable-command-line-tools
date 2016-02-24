@@ -1,5 +1,5 @@
-# This script shows how to connect to a JIRA instance with a
-# username and password over HTTP BASIC authentication.
+# adds to the table in input a "last comment" column with...
+# the last comment
 
 from jira.client import JIRA
 import csv
@@ -9,23 +9,11 @@ import configurationData
 
 reader = csv.reader(sys.stdin)
        
-# By default, the client will connect to a JIRA instance started from the Atlassian Plugin SDK.
-# See
-# https://developer.atlassian.com/display/DOCS/Installing+the+Atlassian+Plugin+SDK
-# for details.
-
 options = {
     'server': configurationData.jiraServerUrl
 }
 
 jira = JIRA(options, basic_auth=(configurationData.username, configurationData.password))    # a username/password tuple
-
-# Get the mutable application properties for this server (requires
-# jira-system-administrators permission)
-props = jira.application_properties()
-
-# Find all issues reported by the admin
-
 
 rowNumber = 0
 reader = csv.reader(iter(sys.stdin.readline, ''))
