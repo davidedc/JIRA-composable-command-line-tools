@@ -20,7 +20,7 @@ create an alias:
 ```echo "id = WPS-1532" | simpleQuery```
 
 # Setup
-You just need python and csvkit. csvkit gives you a number of tools to manipulate .csv files from the command line and can be found at https://csvkit.readthedocs.org/en/0.9.1/ .
+You just need python and csvkit (just ```pip install csvkit```). csvkit gives you a number of tools to manipulate .csv files from the command line and can be found at https://csvkit.readthedocs.org/en/0.9.1/ .
 
 Also open the configurationData file, fill-in with your relevant data and delete the ```.example``` part of the extension.
 
