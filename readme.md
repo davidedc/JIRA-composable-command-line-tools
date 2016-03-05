@@ -2,6 +2,8 @@
 
 A set of command line tools for working with JIRA. The difference with the other JIRA CLI tools out there is that these tools are meant to work together (between them and with other .csv-oriented tools already available out there) through pipes and redirections, UNIX-shell-style. So rather than using one huge cli-based tool, one can use this set of simple tools that can be combined to do complex queries and operations, as per examples.
 
+(see also my other JIRA-related projects [here](https://github.com/davidedc/Customise-JIRA-Cards-Appearance) [here](https://github.com/davidedc/Basic-JIRA-And-Wiki-automation-with-Python-And-Mechanize) [here](https://github.com/davidedc/JIRA-multi-board-view) and [here](https://github.com/davidedc/QR-and-JIRA-check-in-check-out-system))
+
 # Quick example
 
 Show all tasks needed to complete an issue, their status and a brief version of their summary:
